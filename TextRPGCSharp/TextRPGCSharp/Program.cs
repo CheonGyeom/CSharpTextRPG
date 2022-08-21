@@ -186,7 +186,7 @@ namespace TextRPG
                 Console.WriteLine("[2] 도망친다");
 
                 string input = Console.ReadLine();
-                if (input == "1") 
+                if (input == "1")
                 {
                     Fight(ref player, ref monster);
                 }
